@@ -2,8 +2,8 @@
 
   /**********|| Thumbnail Image Configuration ||***************/
   # $config['ThumbnailImageMode']=0;   // don't show thumbnail image
-  # $config['ThumbnailImageMode']=1;   // show thumbnail image directly from YouTube
-  $config['ThumbnailImageMode']=2;    // show thumbnail image by proxy from this server
+  $config['ThumbnailImageMode']=1;   // show thumbnail image directly from YouTube
+  # $config['ThumbnailImageMode']=2;    // show thumbnail image by proxy from this server
 
   /**********|| Video Download Link Configuration ||***************/
   #$config['VideoLinkMode']='direct'; // show only direct download link
@@ -16,7 +16,7 @@
   /**********|| Other ||***************/
   // Set your default timezone
   // use this link: http://php.net/manual/en/timezones.php
-  date_default_timezone_set("Asia/Tehran");
+  date_default_timezone_set("Asia/Baghdad");
   
   // Debug mode
   $debug=false; // debug mode on
